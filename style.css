@@ -86,47 +86,40 @@ main {
 /* O nas */
 .about-us-info {
 	margin-bottom: 10px;
+	padding: 0 20px;
 }
 
 /* produkty */
 .products {
 	margin: 60px auto;
 }
+
+.product {
+	position: relative;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	font-size: 16px;
+}
+
 .product h3 {
 	text-transform: uppercase;
 }
 
 .first-product {
-	position: relative;
-	height: 300px;
 	background-image: url('../img/climbing-1-small_640.jpg');
-	background-size: cover;
-	background-position: center;
-	text-align: center;
+
 }
 .secound-product {
-	position: relative;
-	height: 300px;
 	background-image: url('../img/climbing-2-small_640.jpg');
-	background-size: cover;
-	background-position: center;
-	text-align: center;
 }
 .third-product {
-	position: relative;
-	height: 300px;
 	background-image: url('../img/climbing-3-small_640.jpg');
-	background-size: cover;
-	background-position: center;
-	text-align: center;
+
 }
 .fourth-product {
-	position: relative;
-	height: 300px;
 	background-image: url('../img/climbing-4-small_640.jpg');
-	background-size: cover;
-	background-position: center;
-	text-align: center;
 }
 
 
@@ -161,8 +154,22 @@ main {
 	.hero-text p {
 		font-size: 18px;
 	}
+	.product h3 {
+		font-size: 24px;;
+	}
 }
 
+@media (min-width: 992px) {
+
+	.products-box {
+		font-size: 0;
+	}
+
+	.product {
+		display: inline-block;
+		width: 50%;
+	}
+}
 @media (min-width: 1200px) {
 	.hero-text h1 {
 		font-size: 42px;
@@ -171,6 +178,7 @@ main {
 		font-size: 20px;
 	}
 }
+
 
 
 
