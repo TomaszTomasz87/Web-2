@@ -40,6 +40,12 @@ body {
 	color: #09f;
 }
 
+.section-title {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
 /* nawigacja */
 nav {
 	height: 60px;
@@ -66,11 +72,64 @@ nav {
 .header {
 	position: relative;
 	height: 330px;
-	background-image: url('../img/mountains-640.jpg');
-
+	background-image: url('../img/mountains-0-small_640.jpg');
 	background-size: cover; /* img full size */
 	background-position: center;
 }
+
+
+/* main */
+main {
+	margin: 60px 0;
+}
+
+/* O nas */
+.about-us-info {
+	margin-bottom: 10px;
+}
+
+/* produkty */
+.products {
+	margin: 60px auto;
+}
+.product h3 {
+	text-transform: uppercase;
+}
+
+.first-product {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/climbing-1-small_640.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+.secound-product {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/climbing-2-small_640.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+.third-product {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/climbing-3-small_640.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+.fourth-product {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/climbing-4-small_640.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+
 
 /* media */
 @media (min-width: 768px) {
@@ -94,7 +153,7 @@ nav {
 
 	.header {
 		height: 400px;
-		background-image: url('../img/mountains-1920.jpg');
+		background-image: url('../img/mountains-0-big_1920.jpg');
 	}
 	.hero-text h1 {
 		font-size: 36px;
@@ -113,5 +172,7 @@ nav {
 	}
 }
 
-/* main */
+
+
+
 /* footer */
