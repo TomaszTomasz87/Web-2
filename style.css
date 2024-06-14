@@ -176,6 +176,16 @@ footer {
 	}
 }
 
+.foto {
+	height: 200px;
+		background-image: url('../img/mountains-1-big_1920.jpg');
+		background-image: url('../img/mountains-2-big_1920.jpg');
+		background-image: url('../img/mountains-3-big_1920.jpg');
+		background-image: url('../img/mountains-4-big_1920.jpg');
+		background-image: url('../img/mountains-5-big_1920.jpg');
+	
+}
+
 @media (min-width: 992px) {
 
 	.products-box {
